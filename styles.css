@@ -1,0 +1,188 @@
+/* ---------- COLORS USED ----------
+   Orange header:   #F4934A
+   Teal:            #1D93B8
+   Cream card:      #FDF8EC
+   Red-orange text: #E8603C
+   Light orange:    #FFF0DC
+   Pale teal:       #BFE8E2
+   Dark text:       #333333
+---------------------------------- */
+
+
+/* ---------- PAGE BACKGROUND PATTERN ---------- */
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    line-height: 38px;
+    color: #333333;
+
+    background-color: #BFE8E2;          /* shows while the pattern loads */
+    background-image: url('pattern.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+
+/* ---------- HEADER: TOP BAR ---------- */
+
+.top-bar {
+    background-color: #F4934A;
+    border-bottom: 5px solid #1D93B8;
+    padding: 40px 0;
+}
+
+.top-bar-inner {
+    max-width: 799px;
+    margin: 0 auto;
+    padding-left: 25px;
+}
+
+.site-title {
+    margin: 0 0 30px 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.nav-list {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-link {
+    display: block;
+    padding: 4px 18px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+/* ---------- HEADER: HERO BANNER ---------- */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 480px;
+    border-bottom: 5px solid #1D93B8;
+
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-title {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+/* ---------- MAIN CONTENT ---------- */
+
+.page-content {
+    padding: 50px 20px;
+}
+
+.lesson-card {
+    max-width: 724px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #FDF8EC;
+}
+
+.lesson-title {
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #1D93B8;
+}
+
+.lesson-subtitle {
+    margin: 0 0 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F4C98A;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E8603C;
+}
+
+.property-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lesson-card p {
+    margin: 0 0 20px 0;
+}
+
+
+/* ---------- CODE CHIPS AND LINKS ---------- */
+
+code {
+    padding: 2px 8px;
+    border: 1px solid #F8D9B0;
+    border-radius: 4px;
+    background-color: #FFF0DC;
+    font-family: 'Space Mono', monospace;
+    font-size: 17px;
+    color: #E8603C;
+}
+
+.text-link {
+    color: #1D93B8;
+    text-decoration: none;
+    border-bottom: 2px dotted #1D93B8;
+}
+
+
+/* ---------- "THAT'S A WRAP" BOX ---------- */
+
+.wrap-up {
+    max-width: 624px;
+    margin: 38px auto 0 auto;
+    padding: 40px 50px;
+    border-left: 8px solid #F4934A;
+    background-color: #1D93B8;
+    color: #FFFFFF;
+}
+
+.wrap-up-title {
+    margin: 0 0 10px 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+.wrap-up p {
+    margin: 0;
+}
